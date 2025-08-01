@@ -1,0 +1,23 @@
+{
+  "USER_NAME": "user_1753960148372",
+  "USER_EMAIL": "user_17539601483@example.com",
+  "USER_PASSWORD": "pass_1753960148372",
+  "DOB_DAY": "15",
+  "DOB_MONTH": "6",
+  "DOB_YEAR": "1995",
+  "USER_FIRST_NAME": "xyz",
+  "USER_LAST_NAME": "abc",
+  "USER_COMPANY": "ignek",
+  "USER_ADDRESS": "A/102, bcd",
+  "USER_COUNTRY": "India",
+  "USER_STATE": "Gujarat",
+  "USER_CITY": "Ahmedabad",
+  "USER_ZIP": "236743",
+  "USER_MOBILE": "1234567890",
+  "PRODUCT_NAME": "Tshirt",
+  "CARD_NAME": "abc",
+  "CARD_NUMBER": "1234567887654321",
+  "CARD_CVC": "784",
+  "CARD_EXPIRY_MONTH": "12",
+  "CARD_EXPIRY_YEAR": "2029"
+}

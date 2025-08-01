@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Output from CodeceptJS
+output/
+
+# Logs
+*.log
+
+# .env file containing sensitive info
+.env
+
+# OS and editor specific
+.DS_Store
+.idea/
+.vscode/
