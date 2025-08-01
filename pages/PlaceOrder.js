@@ -28,6 +28,7 @@ module.exports = {
         I.click(this.fields.confirmBtn);
         I.waitForText('Order Placed!', 10);
         I.click(this.fields.continueBtn);
+        //
 
     }
 }
