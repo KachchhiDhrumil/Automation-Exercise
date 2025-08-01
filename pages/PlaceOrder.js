@@ -33,6 +33,8 @@
 //     }
 // }
 
+// @module:PlaceOrder
+
 const { I } = inject();
 const testData = require('../testData/data.json');
 
