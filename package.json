@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "codeceptjs run",
+    "test:headless": "HEADLESS=true codeceptjs run",
+    "test:allure": "codeceptjs run --reporter allure",
+    "allure:serve": "allure serve output/allure-results",
+    "allure:generate": "allure generate output/allure-results --clean"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "allure-commandline": "^2.34.1",
     "codeceptjs": "^3.7.3",
     "playwright": "^1.54.1",
     "veriqa-test-advisor": "^1.0.4"

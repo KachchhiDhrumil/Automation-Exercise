@@ -20,6 +20,15 @@ exports.config = {
       url: 'https://www.automationexercise.com',
       show: true,
       // windowSize: '1920x1080',
+    },
+
+
+  },
+  plugins: {
+    allure: {
+      enabled: true,
+      require: '@codeceptjs/allure-legacy',
+      outputDir: 'output/allure-results'
     }
   },
   include: {

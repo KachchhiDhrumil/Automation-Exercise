@@ -12,6 +12,7 @@ module.exports = {
   // Action method: login
   add() {
     I.click(this.fields.addToCartBtn);
+    I.wait(5);
     I.see('Added!');
     I.click(this.fields.viewCart);
     I.see(testData.PRODUCT_NAME);
