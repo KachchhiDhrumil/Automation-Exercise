@@ -10,6 +10,10 @@ output/
 # .env file containing sensitive info
 .env
 
+# Allure results and reports
+     allure-results/
+     allure-report/
+
 # OS and editor specific
 .DS_Store
 .idea/
