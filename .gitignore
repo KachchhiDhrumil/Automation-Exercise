@@ -11,7 +11,7 @@ output/
 .env
 
 # Allure results and reports
-     allure-report/
+allure-report/
 
 # OS and editor specific
 .DS_Store
