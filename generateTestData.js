@@ -26,7 +26,7 @@ const testData = {
   CARD_EXPIRY_MONTH: '12',
   CARD_EXPIRY_YEAR: '2029',
 };
-
+//
 fs.writeFileSync(
   path.join(__dirname, 'testData', 'data.json'),
   JSON.stringify(testData, null, 2)
