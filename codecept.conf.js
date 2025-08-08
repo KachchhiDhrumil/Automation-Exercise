@@ -4,7 +4,7 @@ const { setHeadlessWhen, setCommonPlugins } = require('@codeceptjs/configure');
 require('dotenv').config();
 setHeadlessWhen(process.env.HEADLESS);
 
-// const { generateTestData } = require('./generateTestData');
+const { generateTestData } = require('./generateTestData');
 
 // enable all common plugins https://github.com/codeceptjs/configure#setcommonplugins
 setCommonPlugins();

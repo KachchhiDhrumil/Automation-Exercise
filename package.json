@@ -7,7 +7,8 @@
     "test:headless": "HEADLESS=true codeceptjs run",
     "test:allure": "codeceptjs run --reporter allure",
     "allure:serve": "allure serve output/allure-results",
-    "allure:generate": "allure generate output/allure-results --clean"
+    "allure:generate": "allure generate output/allure-results --clean",
+    "test:report": "npx codeceptjs run && allure generate output/allure-results --clean && allure open"
   },
   "keywords": [],
   "author": "",
@@ -22,8 +23,5 @@
   },
   "dependencies": {
     "dotenv": "^17.2.1"
-  },
-  "scripts": {
-  "test:report": "npx codeceptjs run && allure generate output/allure-results --clean && allure open"
-}
+  }
 }
