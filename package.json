@@ -22,5 +22,8 @@
   },
   "dependencies": {
     "dotenv": "^17.2.1"
-  }
+  },
+  "scripts": {
+  "test:report": "npx codeceptjs run && allure generate output/allure-results --clean && allure open"
+}
 }
