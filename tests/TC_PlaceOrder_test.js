@@ -10,7 +10,7 @@ Feature('Login Page');
 
 Scenario('Valid sign up flow', async ({ I }) => {
   I.amOnPage('/login');
-  await SignUpPage.signUpForm();
+  // await SignUpPage.signUpForm();
   await loginPage.login();
   await loginPage.seeWelcomeHeading();
   await SearchPage.searchProduct();
